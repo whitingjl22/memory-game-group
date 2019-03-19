@@ -65,7 +65,6 @@ class GameManager extends Component {
 
   squareClicked = (idx) => {
     if (this.state.matchItems[idx].clicked === false && this.state.buttonText === "End Game") {
-      console.log("clicked", idx)
       this.state.numOfTilesClicked++
       this.setState(
         {
